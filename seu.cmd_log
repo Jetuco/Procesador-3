@@ -1,0 +1,5 @@
+vhdtdtfi -lib work seu.vhd -prj Procesador -o seu.spl -module seu -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e seu.spl {D:/Users/Jehison/Documents/UTP/Sexto Semestre/Arquitectura de Computadores/Procesador/seu.sym} 
+vhdtdtfi -prj Procesador -o "D:/Users/Jehison/Documents/UTP/Sexto Semestre/Arquitectura de Computadores/Procesador/seu.vhi" -module seu -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work seu.vhd 
+vhdtdtfi -prj Procesador -o "D:/Users/Jehison/Documents/UTP/Sexto Semestre/Arquitectura de Computadores/Procesador/seu.vhi" -module seu -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work seu.vhd 
+vhdtdtfi -prj Procesador -o "D:/Users/Jehison/Documents/UTP/Sexto Semestre/Arquitectura de Computadores/Procesador/seu.vhi" -module seu -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work seu.vhd 

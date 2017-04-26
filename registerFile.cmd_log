@@ -1,0 +1,1 @@
+vhdtdtfi -prj Procesador -o "D:/Users/Jehison/Documents/UTP/Sexto Semestre/Arquitectura de Computadores/Procesador/registerFile.vhi" -module registerFile -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work registerFile.vhd 

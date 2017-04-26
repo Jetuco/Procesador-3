@@ -1,0 +1,1 @@
+vhdtdtfi -prj Procesador -o "D:/Users/Jehison/Documents/UTP/Sexto Semestre/Arquitectura de Computadores/Procesador/pse_Modifier.vhi" -module pse_Modifier -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work PSE_MODIFIER.vhd 

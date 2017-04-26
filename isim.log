@@ -1,0 +1,22 @@
+ISim log file
+Running: D:\Users\Jehison\Documents\UTP\Sexto Semestre\Arquitectura de Computadores\Procesador 3\tb_conexion_procesador_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb D:/Users/Jehison/Documents/UTP/Sexto Semestre/Arquitectura de Computadores/Procesador 3/tb_conexion_procesador_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /tb_conexion_procesador/uut/Inst_sumador/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+at 0 ps, Instance /tb_conexion_procesador/uut/Inst_instructionMemory/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /tb_conexion_procesador/uut/Inst_registerFile/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /tb_conexion_procesador/uut/Inst_registerFile/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /tb_conexion_procesador/uut/Inst_registerFile/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+Finished circuit initialization process.
+ERROR: Index 3 out of bound 0 to 2. 
+ERROR: In process IMinstructionMemory.vhd:35 
+ 
+INFO: Simulator is stopped.
